@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<!--함수를 통해 리팩토링한 예시-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<script src="colors.js"></script>
+	</head>
+	<body>
+		<a href="#"><h1>WEB</h1></a>
+		<br>
+		<input type="button" value="night mode" onclick="
+		document.querySelector('body').style.backgroundColor = 'black';
+		document.querySelector('body').style.color = 'white';
+		">
+		<input type="button" value="day mode" onclick="
+		document.querySelector('body').style.backgroundColor = 'white';
+		document.querySelector('body').style.color = 'black';
+		">
+		<input id="night_day" type="button" value="night" onclick="
+			nightDayHandler(this);
+		">
+		<p>
+			<h3>1. <a href="ex1.html">ex1</a></h3>
+			<h3>2. <a href="ex2.html">ex2</a></h3>
+		</p>
+
+		<h1>JavaScript</h1>
+		<script>
+			document.write('hello world')
+			document.write(1+1)
+		</script>
+		<h1>html</h1>
+		hello world
+		<!--this 키워드-->
+		<input id="night_day" type="button" value="night" onclick="
+			nightDayHandler(this);
+		">
+
+	</body>
+</html>
